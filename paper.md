@@ -50,6 +50,29 @@ aas-journal: Astrophysical Journal <- The name of the AAS journal.
 # Summary
 Metagenomics uses next-generation sequencing to study all of the genomic diversity present in a specific habitat. The analysis of such experiments requires extensive biological knowledge and the usage of informatics tools, including programming languages and software platforms. Although each tool is released with full tutorials, beginners struggle to build a pipeline that goes from raw data to useful biological insights. With this in mind, we created a workshop on The Carpentries’s lesson incubator. The Carpentries is an organization that already hosts worldwide-used open lessons for Genomics, Ecology, and specific programming languages, but a guide for metagenomics was missing. The purpose of the workshop is to take someone with no previous programming knowledge through a comprehensive workflow.
 
+# Learning objectives
+The main objectives for the trainees will learn in this lesson are:
+
+- Command-line 
+  - Know the basic unix command-line commands to process and manage big amount of files and automate repetitive tasks
+  - Use and know about different alternatives to increse power computing as amazon web services
+  - Understand the use of an environment in conda
+-Project organization
+  - Basic knowledge about organizing and carrying out a metagenomic project
+- Interpret and explain how FASTQ file encodes per-base quality scores
+- Cleaning data is essential
+  - Know how to clean and filter your sequencing data
+  - Use trimmomatic for cleaning and trimming read process
+- Assembly
+  - Understand the basis of an assembly 
+  - Run a metagenomic assembly with MetaSPAdes 
+  - Obtain Metagenome-Assembled Genomes (MAGs) and check their quality using CheckM
+- Taxonomy
+  - Assign the MAGs to different taxa with Kraken
+  -Visualize the taxonomy using Krona and Pavian
+-R
+
+
 [@Binney:2008]. The combination of speed,
 design, and support for Astropy functionality in ``Gala`` will enable exciting
 scientific explorations of forthcoming data releases from the *Gaia* mission
